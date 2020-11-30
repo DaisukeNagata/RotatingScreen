@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="foo-Ls-z3T">
+    <device id="retina6_1" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Land Scape View Controller-->
+        <scene sceneID="FfD-46-YLv">
+            <objects>
+                <viewController id="foo-Ls-z3T" customClass="LandScapeViewController" customModule="RotatingScreen" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oxJ-qi-va3">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kVR-We-Z12">
+                                <rect key="frame" x="425" y="192" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="btAction:" destination="foo-Ls-z3T" eventType="touchUpInside" id="w8E-0P-HGl"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="NlM-St-xq7"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="kVR-We-Z12" firstAttribute="centerX" secondItem="oxJ-qi-va3" secondAttribute="centerX" id="DBk-Az-tZz"/>
+                            <constraint firstItem="kVR-We-Z12" firstAttribute="centerY" secondItem="oxJ-qi-va3" secondAttribute="centerY" id="i6c-Ze-rpd"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bt" destination="kVR-We-Z12" id="nEK-TM-k5w"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eBi-ve-O7K" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="10" y="171"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

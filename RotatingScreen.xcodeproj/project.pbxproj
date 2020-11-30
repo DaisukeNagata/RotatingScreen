@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB6DEF5E257521FA005A62B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6DEF5D257521FA005A62B8 /* AppDelegate.swift */; };
+		BB6DEF60257521FA005A62B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6DEF5F257521FA005A62B8 /* SceneDelegate.swift */; };
+		BB6DEF62257521FA005A62B8 /* PortraitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6DEF61257521FA005A62B8 /* PortraitController.swift */; };
+		BB6DEF67257521FB005A62B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB6DEF66257521FB005A62B8 /* Assets.xcassets */; };
+		BB6DEF6A257521FB005A62B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB6DEF68257521FB005A62B8 /* LaunchScreen.storyboard */; };
+		BB6DEF75257521FB005A62B8 /* RotatingScreenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6DEF74257521FB005A62B8 /* RotatingScreenTests.swift */; };
+		BB6DEF80257521FB005A62B8 /* RotatingScreenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6DEF7F257521FB005A62B8 /* RotatingScreenUITests.swift */; };
+		BB6DEF9725752252005A62B8 /* MothionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6DEF9625752252005A62B8 /* MothionType.swift */; };
+		BB6DEF9C2575228E005A62B8 /* LandScapeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6DEF9B2575228E005A62B8 /* LandScapeViewController.swift */; };
+		BB6DEFA5257522BB005A62B8 /* Main2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB6DEFA3257522BB005A62B8 /* Main2.storyboard */; };
+		BB6DEFA6257522BB005A62B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB6DEFA4257522BB005A62B8 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB6DEF71257521FB005A62B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB6DEF52257521FA005A62B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB6DEF59257521FA005A62B8;
+			remoteInfo = RotatingScreen;
+		};
+		BB6DEF7C257521FB005A62B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB6DEF52257521FA005A62B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB6DEF59257521FA005A62B8;
+			remoteInfo = RotatingScreen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB6DEF5A257521FA005A62B8 /* RotatingScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RotatingScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB6DEF5D257521FA005A62B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB6DEF5F257521FA005A62B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BB6DEF61257521FA005A62B8 /* PortraitController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortraitController.swift; sourceTree = "<group>"; };
+		BB6DEF66257521FB005A62B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB6DEF69257521FB005A62B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB6DEF6B257521FB005A62B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB6DEF70257521FB005A62B8 /* RotatingScreenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RotatingScreenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB6DEF74257521FB005A62B8 /* RotatingScreenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatingScreenTests.swift; sourceTree = "<group>"; };
+		BB6DEF76257521FB005A62B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB6DEF7B257521FB005A62B8 /* RotatingScreenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RotatingScreenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB6DEF7F257521FB005A62B8 /* RotatingScreenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatingScreenUITests.swift; sourceTree = "<group>"; };
+		BB6DEF81257521FB005A62B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB6DEF9625752252005A62B8 /* MothionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MothionType.swift; sourceTree = "<group>"; };
+		BB6DEF9B2575228E005A62B8 /* LandScapeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandScapeViewController.swift; sourceTree = "<group>"; };
+		BB6DEFA3257522BB005A62B8 /* Main2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main2.storyboard; sourceTree = "<group>"; };
+		BB6DEFA4257522BB005A62B8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB6DEF57257521FA005A62B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB6DEF6D257521FB005A62B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB6DEF78257521FB005A62B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB6DEF51257521FA005A62B8 = {
+			isa = PBXGroup;
+			children = (
+				BB6DEF5C257521FA005A62B8 /* RotatingScreen */,
+				BB6DEF73257521FB005A62B8 /* RotatingScreenTests */,
+				BB6DEF7E257521FB005A62B8 /* RotatingScreenUITests */,
+				BB6DEF5B257521FA005A62B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB6DEF5B257521FA005A62B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB6DEF5A257521FA005A62B8 /* RotatingScreen.app */,
+				BB6DEF70257521FB005A62B8 /* RotatingScreenTests.xctest */,
+				BB6DEF7B257521FB005A62B8 /* RotatingScreenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB6DEF5C257521FA005A62B8 /* RotatingScreen */ = {
+			isa = PBXGroup;
+			children = (
+				BB6DEF5D257521FA005A62B8 /* AppDelegate.swift */,
+				BB6DEF5F257521FA005A62B8 /* SceneDelegate.swift */,
+				BB6DEF61257521FA005A62B8 /* PortraitController.swift */,
+				BB6DEF9B2575228E005A62B8 /* LandScapeViewController.swift */,
+				BB6DEF9625752252005A62B8 /* MothionType.swift */,
+				BB6DEFA4257522BB005A62B8 /* Main.storyboard */,
+				BB6DEFA3257522BB005A62B8 /* Main2.storyboard */,
+				BB6DEF66257521FB005A62B8 /* Assets.xcassets */,
+				BB6DEF68257521FB005A62B8 /* LaunchScreen.storyboard */,
+				BB6DEF6B257521FB005A62B8 /* Info.plist */,
+			);
+			path = RotatingScreen;
+			sourceTree = "<group>";
+		};
+		BB6DEF73257521FB005A62B8 /* RotatingScreenTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB6DEF74257521FB005A62B8 /* RotatingScreenTests.swift */,
+				BB6DEF76257521FB005A62B8 /* Info.plist */,
+			);
+			path = RotatingScreenTests;
+			sourceTree = "<group>";
+		};
+		BB6DEF7E257521FB005A62B8 /* RotatingScreenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB6DEF7F257521FB005A62B8 /* RotatingScreenUITests.swift */,
+				BB6DEF81257521FB005A62B8 /* Info.plist */,
+			);
+			path = RotatingScreenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB6DEF59257521FA005A62B8 /* RotatingScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB6DEF84257521FB005A62B8 /* Build configuration list for PBXNativeTarget "RotatingScreen" */;
+			buildPhases = (
+				BB6DEF56257521FA005A62B8 /* Sources */,
+				BB6DEF57257521FA005A62B8 /* Frameworks */,
+				BB6DEF58257521FA005A62B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RotatingScreen;
+			productName = RotatingScreen;
+			productReference = BB6DEF5A257521FA005A62B8 /* RotatingScreen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB6DEF6F257521FB005A62B8 /* RotatingScreenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB6DEF87257521FB005A62B8 /* Build configuration list for PBXNativeTarget "RotatingScreenTests" */;
+			buildPhases = (
+				BB6DEF6C257521FB005A62B8 /* Sources */,
+				BB6DEF6D257521FB005A62B8 /* Frameworks */,
+				BB6DEF6E257521FB005A62B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB6DEF72257521FB005A62B8 /* PBXTargetDependency */,
+			);
+			name = RotatingScreenTests;
+			productName = RotatingScreenTests;
+			productReference = BB6DEF70257521FB005A62B8 /* RotatingScreenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB6DEF7A257521FB005A62B8 /* RotatingScreenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB6DEF8A257521FB005A62B8 /* Build configuration list for PBXNativeTarget "RotatingScreenUITests" */;
+			buildPhases = (
+				BB6DEF77257521FB005A62B8 /* Sources */,
+				BB6DEF78257521FB005A62B8 /* Frameworks */,
+				BB6DEF79257521FB005A62B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB6DEF7D257521FB005A62B8 /* PBXTargetDependency */,
+			);
+			name = RotatingScreenUITests;
+			productName = RotatingScreenUITests;
+			productReference = BB6DEF7B257521FB005A62B8 /* RotatingScreenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB6DEF52257521FA005A62B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					BB6DEF59257521FA005A62B8 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					BB6DEF6F257521FB005A62B8 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = BB6DEF59257521FA005A62B8;
+					};
+					BB6DEF7A257521FB005A62B8 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = BB6DEF59257521FA005A62B8;
+					};
+				};
+			};
+			buildConfigurationList = BB6DEF55257521FA005A62B8 /* Build configuration list for PBXProject "RotatingScreen" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB6DEF51257521FA005A62B8;
+			productRefGroup = BB6DEF5B257521FA005A62B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB6DEF59257521FA005A62B8 /* RotatingScreen */,
+				BB6DEF6F257521FB005A62B8 /* RotatingScreenTests */,
+				BB6DEF7A257521FB005A62B8 /* RotatingScreenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB6DEF58257521FA005A62B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB6DEF6A257521FB005A62B8 /* LaunchScreen.storyboard in Resources */,
+				BB6DEFA5257522BB005A62B8 /* Main2.storyboard in Resources */,
+				BB6DEF67257521FB005A62B8 /* Assets.xcassets in Resources */,
+				BB6DEFA6257522BB005A62B8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB6DEF6E257521FB005A62B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB6DEF79257521FB005A62B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB6DEF56257521FA005A62B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB6DEF9C2575228E005A62B8 /* LandScapeViewController.swift in Sources */,
+				BB6DEF9725752252005A62B8 /* MothionType.swift in Sources */,
+				BB6DEF62257521FA005A62B8 /* PortraitController.swift in Sources */,
+				BB6DEF5E257521FA005A62B8 /* AppDelegate.swift in Sources */,
+				BB6DEF60257521FA005A62B8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB6DEF6C257521FB005A62B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB6DEF75257521FB005A62B8 /* RotatingScreenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB6DEF77257521FB005A62B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB6DEF80257521FB005A62B8 /* RotatingScreenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB6DEF72257521FB005A62B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB6DEF59257521FA005A62B8 /* RotatingScreen */;
+			targetProxy = BB6DEF71257521FB005A62B8 /* PBXContainerItemProxy */;
+		};
+		BB6DEF7D257521FB005A62B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB6DEF59257521FA005A62B8 /* RotatingScreen */;
+			targetProxy = BB6DEF7C257521FB005A62B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB6DEF68257521FB005A62B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB6DEF69257521FB005A62B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB6DEF82257521FB005A62B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB6DEF83257521FB005A62B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB6DEF85257521FB005A62B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B3ZKJZUE9E;
+				INFOPLIST_FILE = RotatingScreen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dbank0208.RotatingScreen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB6DEF86257521FB005A62B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B3ZKJZUE9E;
+				INFOPLIST_FILE = RotatingScreen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dbank0208.RotatingScreen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB6DEF88257521FB005A62B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B3ZKJZUE9E;
+				INFOPLIST_FILE = RotatingScreenTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dbank0208.RotatingScreenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RotatingScreen.app/RotatingScreen";
+			};
+			name = Debug;
+		};
+		BB6DEF89257521FB005A62B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B3ZKJZUE9E;
+				INFOPLIST_FILE = RotatingScreenTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dbank0208.RotatingScreenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RotatingScreen.app/RotatingScreen";
+			};
+			name = Release;
+		};
+		BB6DEF8B257521FB005A62B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B3ZKJZUE9E;
+				INFOPLIST_FILE = RotatingScreenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dbank0208.RotatingScreenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RotatingScreen;
+			};
+			name = Debug;
+		};
+		BB6DEF8C257521FB005A62B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B3ZKJZUE9E;
+				INFOPLIST_FILE = RotatingScreenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dbank0208.RotatingScreenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RotatingScreen;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB6DEF55257521FA005A62B8 /* Build configuration list for PBXProject "RotatingScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB6DEF82257521FB005A62B8 /* Debug */,
+				BB6DEF83257521FB005A62B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB6DEF84257521FB005A62B8 /* Build configuration list for PBXNativeTarget "RotatingScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB6DEF85257521FB005A62B8 /* Debug */,
+				BB6DEF86257521FB005A62B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB6DEF87257521FB005A62B8 /* Build configuration list for PBXNativeTarget "RotatingScreenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB6DEF88257521FB005A62B8 /* Debug */,
+				BB6DEF89257521FB005A62B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB6DEF8A257521FB005A62B8 /* Build configuration list for PBXNativeTarget "RotatingScreenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB6DEF8B257521FB005A62B8 /* Debug */,
+				BB6DEF8C257521FB005A62B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB6DEF52257521FA005A62B8 /* Project object */;
+}
